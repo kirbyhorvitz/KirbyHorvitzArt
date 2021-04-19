@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-Thank you for reaching out, <?php echo $_POST["Name"]; ?><br>
-The email address you submitted is: <?php echo $_POST["Email"]; ?><br>
-The message you submitted is: <?php echo $_POST["Message"]; ?>
+Thank you for reaching out, <?php echo($_POST['Name']); ?><br>
+The email address you submitted is: <?php echo($_POST['Email']); ?><br>
+The message you submitted is: <?php echo($_POST['Message']); ?>
 </body>
 </html>
